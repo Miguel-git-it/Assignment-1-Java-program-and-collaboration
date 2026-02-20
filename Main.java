@@ -53,7 +53,15 @@ public class Main {
 
     }
 
-
+    /**
+     * Searches for a specific item by name within the inventory and increases
+     * its stock level by the specified amount. If the item name is not found
+     * in the array, a message is displayed to the console.
+     * @param names  The array containing the names of the grocery items.
+     * @param stocks The array containing the current stock quantities for each item.
+     * @param target The name of the item to be restocked.
+     * @param amount The quantity to add to the existing stock of the target item.
+     */
     public static void restockItem(String[] names, int[] stocks, String target, int amount) {
         boolean found = false;
 
