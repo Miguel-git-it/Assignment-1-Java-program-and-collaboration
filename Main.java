@@ -48,7 +48,14 @@ public class Main {
 
         scanner.close();
     }
-
+    /**
+     * Displays the current list of grocery items, their prices, and stock levels.
+     * Iterates through the parallel arrays and prints formatted details for
+     * every non-null entry found.
+     * * @param names   The array containing item names.
+     * @param prices  The array containing item prices (indexed to names).
+     * @param stocks  The array containing current stock levels (indexed to names).
+     */
     public static void printInventory(String[] names, double[] prices,int [] stocks){
         System.out.println("Inventory");
         for(int i = 0; i<names.length; i++){
