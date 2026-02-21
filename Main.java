@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
 public class Main{
+/**
+* Initializes the parallel arrays 
+*
+* @param args Command line arguments (not used).
+*/
     public static void main( String[] args){
         double[] itemPrices = new double[10];
         int[] itemStocks = new int[10];
         String[] itemNames = new String[10];
-
+/** 
+* Prints the name, price, and stock amount of each item.
+* @param prices array containin prices.
+* @param names array containing names.
+* @param stocks array containing stock amount.
+*/
     }
     public static void printInventory(String[] names, double[] prices,int [] stocks){
         System.out.println("Inventory");
