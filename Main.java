@@ -4,10 +4,15 @@ import java.util.Scanner;
  * Main class for the Grocery Management System.
  */
 public class Main {
-
+    /**
+     * Default constructor for the Main class.
+     */
+    public Main() {
+        
+    }
     /**
      * Main method that runs the user menu loop.
-     * * @param args Command line arguments
+     * @param args Command line arguments
      */
     public static void main(String[] args) {
 
@@ -52,7 +57,7 @@ public class Main {
      * Displays the current list of grocery items, their prices, and stock levels.
      * Iterates through the parallel arrays and prints formatted details for
      * every non-null entry found.
-     * * @param names   The array containing item names.
+     * @param names   The array containing item names.
      * @param prices  The array containing item prices (indexed to names).
      * @param stocks  The array containing current stock levels (indexed to names).
      */
